@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on sliu的博客</title>
+    <link>https://mountain369.github.io/tags/docker/</link>
+    <description>Recent content in docker on sliu的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 20 Aug 2020 14:15:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://mountain369.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>docker入门</title>
+      <link>https://mountain369.github.io/2020/08/20/docker-intro.html</link>
+      <pubDate>Thu, 20 Aug 2020 14:15:49 +0800</pubDate>
+      
+      <guid>https://mountain369.github.io/2020/08/20/docker-intro.html</guid>
+      <description>docker入门与实践</description>
+    </item>
+    
+  </channel>
+</rss>

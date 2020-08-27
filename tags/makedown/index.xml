@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>makedown on sliu的博客</title>
+    <link>https://mountain369.github.io/tags/makedown/</link>
+    <description>Recent content in makedown on sliu的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 26 Aug 2020 14:15:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://mountain369.github.io/tags/makedown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MD简介</title>
+      <link>https://mountain369.github.io/2020/08/26/MD-intro.html</link>
+      <pubDate>Wed, 26 Aug 2020 14:15:49 +0800</pubDate>
+      
+      <guid>https://mountain369.github.io/2020/08/26/MD-intro.html</guid>
+      <description>什么是Hugo Hugo的安装和使用 建立 Hugo 项目 选择新的主题（Hugo maupassant） https://github.com/flysnow-org/maupassant-hugo Hugo maupassant 主题配置 添加新文章 hugo new post/my-first-blog.md 生成 hugo -D 上传到站点 参考文章 https://www.cnblogs.com/stevexu/p/10779375.html</description>
+    </item>
+    
+  </channel>
+</rss>

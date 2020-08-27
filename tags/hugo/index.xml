@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on sliu的博客</title>
+    <link>https://mountain369.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on sliu的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 27 Aug 2020 14:15:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://mountain369.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>基于hugo搭建静态博客</title>
+      <link>https://mountain369.github.io/2020/08/27/setup-hugoblog.html</link>
+      <pubDate>Thu, 27 Aug 2020 14:15:49 +0800</pubDate>
+      
+      <guid>https://mountain369.github.io/2020/08/27/setup-hugoblog.html</guid>
+      <description>什么是Hugo 引用一下Hugo官网的描述 The world’s fastest framework for building websites. Hugo是一个非常受欢迎的、开源的静态网站生成工具，和Hexo类似。 它速度快，扩展性强。 更多的关于Hugo的介绍，请参考Hugo的官网 https://gohugo.io/ 。 Hugo的安装和使用 建立 Hugo 项目 &amp;gt; hugo new site hgblog 选择新的主题（Hugo maupass</description>
+    </item>
+    
+  </channel>
+</rss>
