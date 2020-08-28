@@ -140,23 +140,29 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#什么是hugo">什么是Hugo</a></li>
-    <li><a href="#hugo的安装和使用">Hugo的安装和使用</a></li>
-    <li><a href="#建立-hugo-项目">建立 Hugo 项目</a></li>
-    <li><a href="#选择新的主题hugo-maupassant">选择新的主题（Hugo maupassant）</a></li>
-    <li><a href="#hugo-maupassant-主题配置">Hugo maupassant 主题配置</a></li>
-    <li><a href="#添加新文章">添加新文章</a>
+    <li><a href="#mdeditor是一个在线编辑markdown文档的编辑器">MdEditor是一个在线编辑Markdown文档的编辑器</a></li>
+    <li><a href="#mdeditor的功能列表演示">MdEditor的功能列表演示</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#标题h2">标题H2</a>
       <ul>
-        <li><a href="#hugo-new-postmy-first-blogmd">hugo new post/my-first-blog.md</a></li>
+        <li><a href="#标题h3">标题H3</a></li>
+        <li><a href="#字符效果和横线等">字符效果和横线等</a></li>
+        <li><a href="#引用-blockquotes">引用 Blockquotes</a></li>
+        <li><a href="#锚点与链接-links">锚点与链接 Links</a></li>
+        <li><a href="#多语言代码高亮-codes">多语言代码高亮 Codes</a></li>
+        <li><a href="#图片-images">图片 Images</a></li>
+        <li><a href="#列表-lists">列表 Lists</a></li>
+        <li><a href="#绘制表格-tables">绘制表格 Tables</a></li>
+        <li><a href="#emoji表情-smiley">Emoji表情 :smiley:</a></li>
+        <li><a href="#科学公式-texkatex">科学公式 TeX(KaTeX)</a></li>
+        <li><a href="#分页符-page-break">分页符 Page break</a></li>
+        <li><a href="#绘制流程图-flowchart">绘制流程图 Flowchart</a></li>
+        <li><a href="#绘制序列图-sequence-diagram">绘制序列图 Sequence Diagram</a></li>
+        <li><a href="#end">End</a></li>
       </ul>
     </li>
-    <li><a href="#生成">生成</a>
-      <ul>
-        <li></li>
-      </ul>
-    </li>
-    <li><a href="#上传到站点">上传到站点</a></li>
-    <li><a href="#参考文章">参考文章</a></li>
   </ul>
 </nav>
     </div>
@@ -217,23 +223,412 @@
         </div>
         
         <div class="post-content">
-            <h2 id="什么是hugo">什么是Hugo</h2>
-<h2 id="hugo的安装和使用">Hugo的安装和使用</h2>
-<h2 id="建立-hugo-项目">建立 Hugo 项目</h2>
-<h2 id="选择新的主题hugo-maupassant">选择新的主题（Hugo maupassant）</h2>
+            <h1 id="欢迎使用-markdown在线编辑器-mdeditor">欢迎使用 Markdown在线编辑器 MdEditor</h1>
+<p><strong>Markdown是一种轻量级的「标记语言」</strong></p>
+<p><figure class="max-w-2xl mx-auto overflow-hidden">
+    
+        <img alt="markdown" src="https://www.mdeditor.com/images/logos/markdown.png" />
+    
+    <figcaption class="p-2 text-center">markdown</figcaption>
+</figure></p>
 <blockquote>
-<p><a href="https://github.com/flysnow-org/maupassant-hugo">https://github.com/flysnow-org/maupassant-hugo</a></p>
 </blockquote>
-<h2 id="hugo-maupassant-主题配置">Hugo maupassant 主题配置</h2>
-<h2 id="添加新文章">添加新文章</h2>
-<h3 id="hugo-new-postmy-first-blogmd">hugo new post/my-first-blog.md</h3>
-<h2 id="生成">生成</h2>
-<h4 id="hugo--d">hugo -D</h4>
-<h2 id="上传到站点">上传到站点</h2>
-<h2 id="参考文章">参考文章</h2>
+<p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”</p>
+<h2 id="mdeditor是一个在线编辑markdown文档的编辑器">MdEditor是一个在线编辑Markdown文档的编辑器</h2>
+<p><em>MdEditor扩展了Markdown的功能（如表格、脚注、内嵌HTML等等），以使让Markdown转换成更多的格式，和更丰富的展示效果，这些功能原初的Markdown尚不具备。</em></p>
 <blockquote>
-<p><a href="https://www.cnblogs.com/stevexu/p/10779375.html">https://www.cnblogs.com/stevexu/p/10779375.html</a></p>
+<p>Markdown增强版中比较有名的有Markdown Extra、MultiMarkdown、 Maruku等。这些衍生版本要么基于工具，如<del>Pandoc</del>，Pandao；要么基于网站，如GitHub和Wikipedia，在语法上基本兼容，但在一些语法和渲染效果上有改动。</p>
 </blockquote>
+<p>MdEditor源于Pandao的JavaScript开源项目，开源地址<a href="https://github.com/pandao/editor.md" title="Editor.md">Editor.md</a>，并在MIT开源协议的许可范围内进行了优化，以适应广大用户群体的需求。向优秀的markdown开源编辑器原作者Pandao致敬。</p>
+<p><figure class="max-w-2xl mx-auto overflow-hidden">
+    
+        <img alt="Pandao editor.md" src="https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png" />
+    
+    <figcaption class="p-2 text-center">Pandao editor.md</figcaption>
+</figure></p>
+<h2 id="mdeditor的功能列表演示">MdEditor的功能列表演示</h2>
+<h1 id="标题h1">标题H1</h1>
+<h2 id="标题h2">标题H2</h2>
+<h3 id="标题h3">标题H3</h3>
+<h4 id="标题h4">标题H4</h4>
+<h5 id="标题h5">标题H5</h5>
+<h6 id="标题h5-1">标题H5</h6>
+<h3 id="字符效果和横线等">字符效果和横线等</h3>
+<hr>
+<p><del>删除线</del> <!-- raw HTML omitted -->删除线（开启识别HTML标签时）<!-- raw HTML omitted --></p>
+<p><em>斜体字</em>      <em>斜体字</em></p>
+<p><strong>粗体</strong>  <strong>粗体</strong></p>
+<p><em><strong>粗斜体</strong></em> <em><strong>粗斜体</strong></em></p>
+<p>上标：X<!-- raw HTML omitted -->2<!-- raw HTML omitted -->，下标：O<!-- raw HTML omitted -->2<!-- raw HTML omitted --></p>
+<p><strong>缩写(同HTML的abbr标签)</strong></p>
+<blockquote>
+<p>即更长的单词或短语的缩写形式，前提是开启识别HTML标签时，已默认开启</p>
+</blockquote>
+<p>The <!-- raw HTML omitted -->HTML<!-- raw HTML omitted --> specification is maintained by the <!-- raw HTML omitted -->W3C<!-- raw HTML omitted -->.</p>
+<h3 id="引用-blockquotes">引用 Blockquotes</h3>
+<blockquote>
+<p>引用文本 Blockquotes</p>
+</blockquote>
+<p>引用的行内混合 Blockquotes</p>
+<blockquote>
+<p>引用：如果想要插入空白换行<code>即&lt;br /&gt;标签</code>，在插入处先键入两个以上的空格然后回车即可，<a href="https://www.mdeditor.com/">普通链接</a>。</p>
+</blockquote>
+<h3 id="锚点与链接-links">锚点与链接 Links</h3>
+<p><a href="https://www.mdeditor.com/">普通链接</a>
+<a href="https://www.mdeditor.com/" title="普通链接带标题">普通链接带标题</a>
+直接链接：<a href="https://www.mdeditor.com">https://www.mdeditor.com</a>
+[锚点链接][anchor-id]
+[anchor-id]: <a href="https://www.mdeditor.com/">https://www.mdeditor.com/</a>
+<a href="mailto:test.test@gmail.com">mailto:test.test@gmail.com</a>
+GFM a-tail link @pandao
+邮箱地址自动链接 <a href="mailto:test.test@gmail.com">test.test@gmail.com</a>  <a href="mailto:www@vip.qq.com">www@vip.qq.com</a></p>
+<blockquote>
+<p>@pandao</p>
+</blockquote>
+<h3 id="多语言代码高亮-codes">多语言代码高亮 Codes</h3>
+<h4 id="行内代码-inline-code">行内代码 Inline code</h4>
+<p>执行命令：<code>npm install marked</code></p>
+<h4 id="缩进风格">缩进风格</h4>
+<p>即缩进四个空格，也做为实现类似 <code>&lt;pre&gt;</code> 预格式化文本 ( Preformatted Text ) 的功能。</p>
+<pre><code>&lt;?php
+    echo &quot;Hello world!&quot;;
+?&gt;
+</code></pre>
+<p>预格式化文本：</p>
+<pre><code>| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+</code></pre>
+<h4 id="js代码">JS代码</h4>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#000;font-weight:bold">function</span> test() {
+    console.log(<span style="color:#d14">&#34;Hello world!&#34;</span>);
+}
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="html-代码-html-codes">HTML 代码 HTML codes</h4>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#999;font-weight:bold;font-style:italic">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#000080">html</span>&gt;
+    &lt;<span style="color:#000080">head</span>&gt;
+        &lt;<span style="color:#000080">mate</span> <span style="color:#008080">charest</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;utf-8&#34;</span> /&gt;
+        &lt;<span style="color:#000080">meta</span> <span style="color:#008080">name</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;keywords&#34;</span> <span style="color:#008080">content</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;Editor.md, Markdown, Editor&#34;</span> /&gt;
+        &lt;<span style="color:#000080">title</span>&gt;Hello world!&lt;/<span style="color:#000080">title</span>&gt;
+        &lt;<span style="color:#000080">style</span> <span style="color:#008080">type</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;text/css&#34;</span>&gt;
+            <span style="color:#000080">body</span>{<span style="color:#000;font-weight:bold">font-size</span>:<span style="color:#099">14</span><span style="color:#458;font-weight:bold">px</span>;<span style="color:#000;font-weight:bold">color</span>:<span style="color:#099">#444</span>;<span style="color:#000;font-weight:bold">font-family</span>: <span style="color:#d14">&#34;Microsoft Yahei&#34;</span>, Tahoma, <span style="color:#d14">&#34;Hiragino Sans GB&#34;</span>, Arial;<span style="color:#000;font-weight:bold">background</span>:<span style="color:#099">#fff</span>;}
+            <span style="color:#000080">ul</span>{<span style="color:#000;font-weight:bold">list-style</span>: <span style="color:#000;font-weight:bold">none</span>;}
+            <span style="color:#000080">img</span>{<span style="color:#000;font-weight:bold">border</span>:<span style="color:#000;font-weight:bold">none</span>;<span style="color:#000;font-weight:bold">vertical-align</span>: <span style="color:#000;font-weight:bold">middle</span>;}
+        &lt;/<span style="color:#000080">style</span>&gt;
+    &lt;/<span style="color:#000080">head</span>&gt;
+    &lt;<span style="color:#000080">body</span>&gt;
+        &lt;<span style="color:#000080">h1</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;text-xxl&#34;</span>&gt;Hello world!&lt;/<span style="color:#000080">h1</span>&gt;
+        &lt;<span style="color:#000080">p</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;text-green&#34;</span>&gt;Plain text&lt;/<span style="color:#000080">p</span>&gt;
+    &lt;/<span style="color:#000080">body</span>&gt;
+&lt;/<span style="color:#000080">html</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="图片-images">图片 Images</h3>
+<p>图片加链接 (Image + Link)：</p>
+<p><a href="https://www.mdeditor.com/images/logos/markdown.png" title="markdown">
+        <img class="mx-auto" alt="" src="https://www.mdeditor.com/images/logos/markdown.png" />   
+    </a></p>
+<blockquote>
+<p>Follow your heart.</p>
+</blockquote>
+<hr>
+<h3 id="列表-lists">列表 Lists</h3>
+<h4 id="无序列表减号unordered-lists--">无序列表（减号）Unordered Lists (-)</h4>
+<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+<h4 id="无序列表星号unordered-lists-">无序列表（星号）Unordered Lists (*)</h4>
+<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+<h4 id="无序列表加号和嵌套unordered-lists-">无序列表（加号和嵌套）Unordered Lists (+)</h4>
+<ul>
+<li>列表一</li>
+<li>列表二
+<ul>
+<li>列表二-1</li>
+<li>列表二-2</li>
+<li>列表二-3</li>
+</ul>
+</li>
+<li>列表三
+<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+</li>
+</ul>
+<h4 id="有序列表-ordered-lists--">有序列表 Ordered Lists (-)</h4>
+<ol>
+<li>第一行</li>
+<li>第二行</li>
+<li>第三行</li>
+</ol>
+<h4 id="gfm-task-list">GFM task list</h4>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> GFM task list 1</li>
+<li><input checked="" disabled="" type="checkbox"> GFM task list 2</li>
+<li><input disabled="" type="checkbox"> GFM task list 3
+<ul>
+<li><input disabled="" type="checkbox"> GFM task list 3-1</li>
+<li><input disabled="" type="checkbox"> GFM task list 3-2</li>
+<li><input disabled="" type="checkbox"> GFM task list 3-3</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> GFM task list 4
+<ul>
+<li><input disabled="" type="checkbox"> GFM task list 4-1</li>
+<li><input disabled="" type="checkbox"> GFM task list 4-2</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="绘制表格-tables">绘制表格 Tables</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th align="right">价格</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>计算机</td>
+<td align="right">$1600</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td>手机</td>
+<td align="right">$12</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td>管线</td>
+<td align="right">$1</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Function name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>help()</code></td>
+<td>Display the help window.</td>
+</tr>
+<tr>
+<td><code>destroy()</code></td>
+<td><strong>Destroy your computer!</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Left-Aligned</th>
+<th align="center">Center Aligned</th>
+<th align="right">Right Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">col 3 is</td>
+<td align="center">some wordy text</td>
+<td align="right">$1600</td>
+</tr>
+<tr>
+<td align="left">col 2 is</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+<tr>
+<td align="left">zebra stripes</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th align="right">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computer</td>
+<td align="right">$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td align="right">$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="特殊符号-html-entities-codes">特殊符号 HTML Entities Codes</h4>
+<p>© &amp;  ¨ ™ ¡ £
+&amp; &lt; &gt; ¥ € ® ± ¶ § ¦ ¯ « ·</p>
+<p>X² Y³ ¾ ¼  ×  ÷   »</p>
+<p>18ºC  &quot;  '</p>
+<p>[========]</p>
+<h3 id="emoji表情-smiley">Emoji表情 :smiley:</h3>
+<blockquote>
+<p>Blockquotes :star:</p>
+</blockquote>
+<h4 id="gfm-task-lists--emoji--fontawesome-icon-emoji--editormd-logo-emoji-editormd-logo-5x">GFM task lists &amp; Emoji &amp; fontAwesome icon emoji &amp; editormd logo emoji :editormd-logo-5x:</h4>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> :smiley: @mentions, :smiley: #refs, <a href="">links</a>, <strong>formatting</strong>, and <!-- raw HTML omitted -->tags<!-- raw HTML omitted --> supported :editormd-logo:;</li>
+<li><input checked="" disabled="" type="checkbox"> list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</li>
+<li><input checked="" disabled="" type="checkbox"> <input disabled="" type="checkbox"> :smiley: this is a complete item :smiley:;</li>
+<li><input disabled="" type="checkbox"> []this is an incomplete item <a href="#">test link</a> :fa-star: @pandao;</li>
+<li><input disabled="" type="checkbox"> <input disabled="" type="checkbox"> this is an incomplete item :fa-star: :fa-gear:;
+<ul>
+<li><input disabled="" type="checkbox"> :smiley: this is an incomplete item <a href="#">test link</a> :fa-star: :fa-gear:;</li>
+<li><input disabled="" type="checkbox"> :smiley: this is  :fa-star: :fa-gear: an incomplete item <a href="#">test link</a>;</li>
+</ul>
+</li>
+</ul>
+<h4 id="反斜杠-escape">反斜杠 Escape</h4>
+<p>*literal asterisks*</p>
+<p>[========]</p>
+<h3 id="科学公式-texkatex">科学公式 TeX(KaTeX)</h3>
+<p>$$E=mc^2$$</p>
+<p>行内的公式$$E=mc^2$$行内的公式，行内的$$E=mc^2$$公式。</p>
+<p>$$x &gt; y$$</p>
+<p>$$(\sqrt{3x-1}+(1+x)^2)$$</p>
+<p>$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$</p>
+<p>多行公式：</p>
+<pre><code class="language-math" data-lang="math">\displaystyle
+\left( \sum\_{k=1}^n a\_k b\_k \right)^2
+\leq
+\left( \sum\_{k=1}^n a\_k^2 \right)
+\left( \sum\_{k=1}^n b\_k^2 \right)
+</code></pre><pre><code class="language-katex" data-lang="katex">\displaystyle
+    \frac{1}{
+        \Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{
+        \frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {
+        1+\frac{e^{-6\pi}}
+        {1+\frac{e^{-8\pi}}
+         {1+\cdots} }
+        }
+    }
+</code></pre><div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-latex" data-lang="latex">f(x) = <span style="color:#000;font-weight:bold">\int</span><span style="color:#0086b3">_{</span>-<span style="color:#000;font-weight:bold">\infty</span><span style="color:#0086b3">}^</span><span style="color:#000;font-weight:bold">\infty</span>
+    <span style="color:#000;font-weight:bold">\hat</span> f(<span style="color:#000;font-weight:bold">\xi</span>)<span style="color:#000;font-weight:bold">\,</span>e<span style="color:#0086b3">^{</span>2 <span style="color:#000;font-weight:bold">\pi</span> i <span style="color:#000;font-weight:bold">\xi</span> x<span style="color:#0086b3">}</span>
+    <span style="color:#000;font-weight:bold">\,</span>d<span style="color:#000;font-weight:bold">\xi</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="分页符-page-break">分页符 Page break</h3>
+<blockquote>
+<p>Print Test: Ctrl + P</p>
+</blockquote>
+<p>[========]</p>
+<h3 id="绘制流程图-flowchart">绘制流程图 Flowchart</h3>
+<pre><code class="language-flow" data-lang="flow">st=&gt;start: 用户登陆
+op=&gt;operation: 登陆操作
+cond=&gt;condition: 登陆成功 Yes or No?
+e=&gt;end: 进入后台
+
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+</code></pre><p>[========]</p>
+<h3 id="绘制序列图-sequence-diagram">绘制序列图 Sequence Diagram</h3>
+<pre><code class="language-seq" data-lang="seq">Andrew-&gt;China: Says Hello
+Note right of China: China thinks\nabout it
+China--&gt;Andrew: How are you?
+Andrew-&gt;&gt;China: I am good thanks!
+</code></pre><h3 id="end">End</h3>
 
         </div>
 
@@ -375,6 +770,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://mountain369.github.io/2020/08/28/redis-intro.html" title="redis入门">redis入门</a>
+    </li>
+    
+    <li>
         <a href="https://mountain369.github.io/2020/08/27/setup-hugoblog.html" title="基于hugo搭建静态博客">基于hugo搭建静态博客</a>
     </li>
     
@@ -436,6 +835,8 @@
     
     <li><a href="https://mountain369.github.io/categories/hugo/">hugo (1)</a></li>
     
+    <li><a href="https://mountain369.github.io/categories/redis/">redis (1)</a></li>
+    
 </ul>
     </section>
 
@@ -448,6 +849,8 @@
     <a href="https://mountain369.github.io/tags/hugo/">hugo</a>
     
     <a href="https://mountain369.github.io/tags/makedown/">makedown</a>
+    
+    <a href="https://mountain369.github.io/tags/redis/">redis</a>
     
     <a href="https://mountain369.github.io/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
     
